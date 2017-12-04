@@ -1,0 +1,15 @@
+with "aunit";
+with "gnattest_common.gpr";
+with "../adventofcode.gpr";
+project test_adventofcode is
+
+   for Source_Dirs use
+     ("src/day_1/",
+      "src/day_2/",
+      "src/day_3/",
+      "common");
+
+   for Languages use Gnattest_Common'Languages & ("Ada");
+   package Compiler renames Gnattest_Common.Compiler;
+
+end test_adventofcode;

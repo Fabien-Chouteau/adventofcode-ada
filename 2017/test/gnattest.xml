@@ -1,0 +1,103 @@
+<tests_mapping mode="monolith">
+   <unit source_file="day_1.ads">
+      <test_unit target_file="day_1-test_data-tests.ads">
+         <setup file="day_1-test_data.adb" name="Set_Up" line="8"  column="4"/>
+         <teardown file="day_1-test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Solve_Part_One_Puzzle" line="3" column="13">
+            <test_case name="test case 1" line="8" column="11">
+               <test file="day_1-test_data-tests.adb" line="69" column="1" name="Test_Solve_Part_One_Puzzle_6c0d4e_35ff4a" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 2" line="12" column="11">
+               <test file="day_1-test_data-tests.adb" line="120" column="1" name="Test_Solve_Part_One_Puzzle_6c0d4e_8e08ed" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 3" line="16" column="11">
+               <test file="day_1-test_data-tests.adb" line="171" column="1" name="Test_Solve_Part_One_Puzzle_6c0d4e_c2efea" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 4" line="20" column="11">
+               <test file="day_1-test_data-tests.adb" line="222" column="1" name="Test_Solve_Part_One_Puzzle_6c0d4e_59e22f" timestamp="modified"/>
+            </test_case>
+         </tested>
+         <tested name="Solve_Part_Two_Puzzle" line="26" column="13">
+            <test_case name="test case 1" line="34" column="11">
+               <test file="day_1-test_data-tests.adb" line="273" column="1" name="Test_Solve_Part_Two_Puzzle_25e0d6_d3e295" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 2" line="38" column="11">
+               <test file="day_1-test_data-tests.adb" line="324" column="1" name="Test_Solve_Part_Two_Puzzle_25e0d6_6e14d0" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 3" line="42" column="11">
+               <test file="day_1-test_data-tests.adb" line="375" column="1" name="Test_Solve_Part_Two_Puzzle_25e0d6_7e0a31" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 4" line="46" column="11">
+               <test file="day_1-test_data-tests.adb" line="426" column="1" name="Test_Solve_Part_Two_Puzzle_25e0d6_7dcc30" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 5" line="50" column="11">
+               <test file="day_1-test_data-tests.adb" line="477" column="1" name="Test_Solve_Part_Two_Puzzle_25e0d6_197ea0" timestamp="modified"/>
+            </test_case>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
+   <unit source_file="day_2.ads">
+      <test_unit target_file="day_2-test_data-tests.ads">
+         <setup file="day_2-test_data.adb" name="Set_Up" line="8"  column="4"/>
+         <teardown file="day_2-test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Solve_Part_One_Line" line="3" column="13">
+            <test_case name="test case 1" line="8" column="11">
+               <test file="day_2-test_data-tests.adb" line="69" column="1" name="Test_Solve_Part_One_Line_0adfcb_aad9da" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 2" line="12" column="11">
+               <test file="day_2-test_data-tests.adb" line="120" column="1" name="Test_Solve_Part_One_Line_0adfcb_cde27f" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 3" line="16" column="11">
+               <test file="day_2-test_data-tests.adb" line="171" column="1" name="Test_Solve_Part_One_Line_0adfcb_21e612" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 4" line="20" column="11">
+               <test file="day_2-test_data-tests.adb" line="222" column="1" name="Test_Solve_Part_One_Line_0adfcb_db6703" timestamp="modified"/>
+            </test_case>
+         </tested>
+         <tested name="Solve_Part_Two_Line" line="40" column="13">
+            <test_case name="test case 1" line="45" column="11">
+               <test file="day_2-test_data-tests.adb" line="287" column="1" name="Test_Solve_Part_Two_Line_b2269c_f2e14f" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 2" line="49" column="11">
+               <test file="day_2-test_data-tests.adb" line="338" column="1" name="Test_Solve_Part_Two_Line_b2269c_630640" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 3" line="53" column="11">
+               <test file="day_2-test_data-tests.adb" line="389" column="1" name="Test_Solve_Part_Two_Line_b2269c_af53df" timestamp="modified"/>
+            </test_case>
+            <test_case name="test case 4" line="57" column="11">
+               <test file="day_2-test_data-tests.adb" line="440" column="1" name="Test_Solve_Part_Two_Line_b2269c_38c279" timestamp="modified"/>
+            </test_case>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
+   <unit source_file="day_3.ads">
+      <test_unit target_file="day_3-test_data-tests.ads">
+         <setup file="day_3-test_data.adb" name="Set_Up" line="8"  column="4"/>
+         <teardown file="day_3-test_data.adb" name="Tear_Down" line="14"  column="4"/>
+         <tested name="Solve_Part_One" line="3" column="13">
+            <test_case name="test case 1" line="4" column="11">
+               <test file="day_3-test_data-tests.adb" line="69" column="1" name="Test_Solve_Part_One_1ad011_8c7933" timestamp="2017-12-04 19:40:39"/>
+            </test_case>
+            <test_case name="test case 2" line="8" column="11">
+               <test file="day_3-test_data-tests.adb" line="120" column="1" name="Test_Solve_Part_One_1ad011_f54483" timestamp="2017-12-04 19:40:39"/>
+            </test_case>
+            <test_case name="test case 3" line="12" column="11">
+               <test file="day_3-test_data-tests.adb" line="171" column="1" name="Test_Solve_Part_One_1ad011_5140e4" timestamp="2017-12-04 19:40:39"/>
+            </test_case>
+            <test_case name="test case 4" line="16" column="11">
+               <test file="day_3-test_data-tests.adb" line="222" column="1" name="Test_Solve_Part_One_1ad011_06b808" timestamp="2017-12-04 19:40:39"/>
+            </test_case>
+            <test_case name="test case 5" line="20" column="11">
+               <test file="day_3-test_data-tests.adb" line="273" column="1" name="Test_Solve_Part_One_1ad011_1a39bf" timestamp="2017-12-04 19:40:39"/>
+            </test_case>
+         </tested>
+         <dangling>
+         </dangling>
+      </test_unit>
+   </unit>
+   <additional_tests/>
+</tests_mapping>

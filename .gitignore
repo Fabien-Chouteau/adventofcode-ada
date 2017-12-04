@@ -1,0 +1,7 @@
+*.o
+*.ali
+*.stdout
+*.stderr
+*.bexch
+gnatinspect.db*
+b__*

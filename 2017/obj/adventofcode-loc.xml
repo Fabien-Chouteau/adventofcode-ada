@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/adventofcode.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 4" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_1/day_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 69" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/test/src/day_1/day_1-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 75" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/test/src/day_1/day_1-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 74" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/test/src/day_1/day_1-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_1/day_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 61" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 62" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 21" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 27" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 13" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 61" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 61" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 63" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 58" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 57" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 55" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 62" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 62" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 63" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 62" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 30" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 65" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 10" >
+      <vfs_project />
+      <vfs_file>/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_3/day_3_main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/adventofcode.gpr</vfs_file>
+    <file_marker column=" 1" line=" 25">
+      <vfs_project  />
+      <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/adventofcode.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 4">
+      <vfs_project  />
+      <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_1/day_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 69">
+      <vfs_project  />
+      <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/test/src/day_1/day_1-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 75">
+      <vfs_project  />
+      <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/test/src/day_1/day_1-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 74">
+      <vfs_project  />
+      <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/test/src/day_1/day_1-test_data-tests.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 9">
+      <vfs_project >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/adventofcode.gpr</vfs_project>
+      <vfs_file >/home/chouteau/src/github/perso/adventofcode-2017-ada/2017/src/day_1/day_1.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

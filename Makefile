@@ -1,0 +1,9 @@
+TOPTARGETS := all test
+
+YEARS := 2017
+
+$(TOPTARGETS): $(YEARS)
+$(YEARS):
+	$(MAKE) -C $@ $(MAKECMDGOALS)
+
+.PHONY: $(TOPTARGETS) $(YEARS)
