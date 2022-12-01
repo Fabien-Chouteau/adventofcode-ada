@@ -23,12 +23,14 @@ is
                             Invalid_Line, Total_Overflow,
                             List_Too_Small, No_Data);
 
-   function Maximum (List : Calories_Count_Vect.Vector)
-                     return Calories_Count
+   procedure Extract_Maximum (List   : in out Calories_Count_Vect.Vector;
+                              Result :    out Calories_Count)
      with Pre => not Is_Empty (List),
-         Post => (for all Elt of List => Elt <= Maximum'Result)
+         Post => (for all Elt of List'Old => Elt <= Result)
                  and then
-                 (for some Elt of List => Elt = Maximum'Result);
+                 (for some Elt of List'Old => Elt = Result)
+                 and then
+                 Length (List) = Length (List'Old) - 1;
 
    procedure Load_Calories (List     : in out Calories_Count_Vect.Vector;
                             Filename :        String;
@@ -40,6 +42,9 @@ is
      with Pre => Str'Length in 1 .. 9
                  and then
                  (for all C of Str => C in '0' .. '9');
+
+   procedure Print_Solution (Filename : String)
+     with Pre => Filename'Length < 1024;
 
    -------------------
    -- Load_Calories --
@@ -130,33 +135,37 @@ is
 
    end Load_Calories;
 
-   -------------
-   -- Maximum --
-   -------------
+   ---------------------
+   -- Extract_Maximum --
+   ---------------------
 
-   function Maximum (List : Calories_Count_Vect.Vector)
-                          return Calories_Count
+   procedure Extract_Maximum (List   : in out Calories_Count_Vect.Vector;
+                              Result :    out Calories_Count)
    is
-      Max : Calories_Count := Calories_Count'First;
-
       First : constant Natural := First_Index (List);
       Last  : constant Natural := Last_Index (List);
       Elt   : Calories_Count;
+
+      Max_Index : Natural := First;
    begin
+      Result := Element (List, Max_Index);
+
       for Index in First .. Last loop
          Elt := Element (List, Index);
 
-         if Elt >= Max then
-            Max := Elt;
+         if Elt >= Result then
+            Result := Elt;
+            Max_Index := Index;
          end if;
 
-         pragma Loop_Invariant ((for some Elt of List => Elt = Max));
+         pragma Loop_Invariant (Max_Index in First .. Last);
+         pragma Loop_Invariant ((for some Elt of List => Elt = Result));
          pragma Loop_Invariant
-           ((for all Idx in First .. Index => Element (List, Idx) <= Max));
+           ((for all Idx in First .. Index => Element (List, Idx) <= Result));
       end loop;
 
-      return Max;
-   end Maximum;
+      Delete (List, Max_Index);
+   end Extract_Maximum;
 
    -----------
    -- Value --
@@ -177,13 +186,43 @@ is
    procedure Print_Solution (Filename : String) is
       List : Calories_Count_Vect.Vector (1024);
       Error : Load_Error_Kind;
+
+      Max, Total : Calories_Count;
+
+      procedure Print (Str : String) is
+      begin
+         TIO.Put (Filename);
+         TIO.Put_Line (Str);
+      end Print;
    begin
       Load_Calories (List, Filename, Error);
 
       if Error = None then
-         TIO.Put_Line (Filename & " solution:" & Maximum (List)'Img);
+
+         if Length (List) >= 3 then
+            Total := 0;
+            for Cnt in 1 .. 3 loop
+               Extract_Maximum (List, Max);
+
+               pragma Loop_Invariant
+                 (Length (List) >= Capacity_Range (3 - Cnt));
+
+               if Total > Calories_Count'Last - Max then
+                  Print (" FAIL: Total overflow");
+                  return;
+               else
+                  Total := Total + Max;
+               end if;
+            end loop;
+
+            Print (" Total:" & Total'Img);
+         else
+            Print (" FAIL: not enought elves (" &
+                     Length (List)'Img & ")");
+         end if;
+         pragma Unreferenced (List);
       else
-         TIO.Put_Line (Filename & " FAIL: " & Error'Img);
+         Print (" FAIL: " & Error'Img);
       end if;
    end Print_Solution;
 
