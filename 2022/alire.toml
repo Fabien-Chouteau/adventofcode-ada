@@ -11,3 +11,5 @@ executables = ["day_01"]
 [[depends-on]]
 resources = "~0.1.0"
 gnatprove = "^11"
+[[depends-on]]
+aaa = "~0.2.6"
