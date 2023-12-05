@@ -1,0 +1,15 @@
+name = "adventofcode_2023"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Fabien Chouteau"]
+maintainers = ["Fabien Chouteau <fabien.chouteau@gmail.com>"]
+maintainers-logins = ["Fabien-Chouteau"]
+
+executables = ["day_01"]
+
+[[depends-on]]
+aoc = "*"
+
+[[pins]]
+aoc = { path='../aoc' }

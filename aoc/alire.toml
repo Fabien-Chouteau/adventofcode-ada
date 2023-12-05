@@ -1,0 +1,11 @@
+name = "aoc"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Fabien Chouteau"]
+maintainers = ["Fabien Chouteau <fabien.chouteau@gmail.com>"]
+maintainers-logins = ["Fabien-Chouteau"]
+[[depends-on]]
+resources = "~0.1.0"
+[[depends-on]]
+aaa = "~0.2.6"
